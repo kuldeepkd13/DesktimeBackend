@@ -133,7 +133,7 @@ app.get(
       const user = req.user
       
     
-      const frontendURL = "http://127.0.0.1:5501/Frontend/dashboard.html"
+      const frontendURL = "https://desk-time.netlify.app/dashboard.html"
     
       res.send(`
                   <a href="${frontendURL}?userID=${user._id}&accesstoken=${accessToken}" id="myid" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #222222; margin: 0; padding: 0; overflow: scroll;">
